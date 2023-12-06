@@ -1,0 +1,150 @@
+*{
+    margin: 0 auto;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+    background-color: #22272e;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container{
+    max-width: 720px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 0 14px;
+}
+
+.logo{
+    max-width: 227px;
+}
+
+.title{
+    margin: 24px 0;
+    color: #fff;
+    text-align: center;
+}
+
+.form label{
+    color: #fff;
+    font-size: 20px;
+}
+
+.input{
+    width: 100%;
+    height: 45px;
+    border-radius: 4px;
+    padding: 0 14px;
+    margin-top: 8px;
+    margin-bottom: 16px;
+}
+
+.button{
+    width: 100%;
+    height: 45px;
+    border-radius: 4px;
+    color: #fff;
+    background-color: #61b9ec;
+    font-weight: bold;
+    border: 0;
+    cursor: pointer;
+    font-size: 20px;
+    transition: .3s;
+}
+
+.button:hover{
+    opacity: 0.8;
+}
+
+.result{
+    background: #00b63e;
+    margin-top: 18px;
+    padding: 20px 20px;
+    max-width: 520px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 4px;
+    transition: transform 0.8s;
+}
+
+.hide{
+    display: none;
+}
+
+.result:hover{
+    transform: scale(1.1);
+}
+
+.result span{
+    color: #fff;
+    margin-bottom: 12px;
+}
+
+#text-result{
+    font-size: 25px;
+    font-weight: bold;
+    
+}
+
+.info{
+    position: fixed;
+    right: 14px;
+    bottom: 22px;
+}
+
+.info-img{
+    width: 50px;
+    height: 50px;
+}
+
+.tooltip{
+    color: #fff;
+    background-color: rgb(15, 15, 15);
+    padding: 5px 8px;
+    position: relative;
+    display: none;
+}
+
+.info:hover .tooltip{
+    display: inline;
+    font-size: 12px;
+}
+
+.sobre{
+    max-width: 620px;
+    background-color: #242424;
+    padding: 28px 14px;
+    border: 1px solid #696969;
+    border-radius: 4px;
+
+}
+
+.sobre p{
+
+    color: #fff;
+    margin-bottom: 8px;
+    line-height: 150%;
+}
+
+.button-calcular{
+    background-color: #61b9ec;
+    height: 48px;
+    width: 70%;
+    color: #fff;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-radius: 4px;
+
+}
